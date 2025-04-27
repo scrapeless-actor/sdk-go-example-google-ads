@@ -1,0 +1,78 @@
+{
+  "title": "google ads",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "advertiser_id": {
+      "title": "Google Advertiser Id",
+      "type": "string",
+      "description": "Parameter defines the Google Advertiser ID.",
+      "editor": "textfield",
+      "prefill": "AR17828074650563772417"
+    },
+    "text": {
+      "title": "Text",
+      "type": "string",
+      "description": "Parameter defines the text you want to search.",
+      "editor": "textfield",
+      "prefill": ""
+    },
+    "region": {
+      "title": "Region",
+      "type": "string",
+      "description": "Parameter defines from where you want the search to originate.",
+      "editor": "textfield",
+      "prefill": ""
+    },
+    "platform": {
+      "title": "Platform",
+      "type": "string",
+      "description": "Parameter defines the target platform where ads are displayed.",
+      "editor": "textfield",
+      "prefill": ""
+    },
+    "start_date": {
+      "title": "Start Date",
+      "type": "string",
+      "description": "Parameter defines the start date for which you want the search results to begin.",
+      "editor": "textfield",
+      "prefill": ""
+    },
+    "end_date": {
+      "title": "End Date",
+      "type": "string",
+      "description": "Parameter defines the end date for which you want the search results to conclude.",
+      "editor": "textfield",
+      "prefill": ""
+    },
+    "creative_format": {
+      "title": "Creative Format",
+      "type": "string",
+      "description": "Parameter defines the format you want to filter by.",
+      "editor": "textfield",
+      "prefill": ""
+    },
+    "num": {
+      "title": "Num",
+      "type": "string",
+      "description": "Parameter defines the maximum number of results to return.",
+      "editor": "textfield",
+      "prefill": ""
+    },
+    "next_page_token": {
+      "title": "Next Page Token",
+      "type": "string",
+      "description": "Parameter defines the next page token.",
+      "editor": "textfield",
+      "prefill": ""
+    },
+    "political_ads": {
+      "title": "Political Ads",
+      "type": "string",
+      "description": "The parameter determine if the advertiser promotes political advertisement.",
+      "editor": "textfield",
+      "prefill": ""
+    }
+  },
+  "required": ["advertiser_id"]
+}
